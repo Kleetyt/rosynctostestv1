@@ -337,3 +337,56 @@ span {
         width: 75vw;
     }
 }
+
+/* ===== Rosync TOS Page Theme (blue / black / white) ===== */
+.tos-page {
+    background: linear-gradient(180deg,#00121a 0%, #000000 80%);
+    color: #eaf6ff;
+    min-height: 100vh;
+}
+
+.tos-page .tos-container {
+    max-width: 900px;
+    margin: 6rem auto;
+    background: #ffffff;
+    color: #071022;
+    border-radius: 12px;
+    padding: 2.5rem 2.5rem;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    border-left: 6px solid #0b66ff;
+}
+
+.tos-page h1 {
+    color: #0b66ff;
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+}
+
+.tos-page p.tos-meta {
+    color: #6b7c90;
+    margin-bottom: 1.5rem;
+}
+
+.tos-page h2 {
+    color: #0b66ff;
+    margin-top: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.tos-page p {
+    color: #071022;
+    line-height: 1.8;
+    font-size: 1.6rem;
+}
+
+.tos-page a {
+    color: #0b66ff;
+}
+
+@media (max-width: 700px) {
+    .tos-page .tos-container {
+        margin: 3.5rem 1rem;
+        padding: 1.6rem;
+    }
+    .tos-page h1 { font-size: 2.2rem; }
+}
